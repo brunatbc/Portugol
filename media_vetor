@@ -1,0 +1,23 @@
+Algoritmo "media_vetor"
+
+Var
+notas: vetor [1..6] de real
+n: inteiro
+media,total: real
+Inicio
+  para n<-1 ate 6 faca
+  escreval ("Digite a sua", n, "ª nota:")
+  leia (notas[n])
+  total<- total + notas [n]
+  fimpara
+  media <- total/6
+  limpatela
+  escreval ("Sua média é: ", media)
+     se (media>6) entao
+     escreval ("Você foi aprovado, parabéns!")
+     fimse
+     se (media<6) entao
+     escreval ("Você não foi aprovado.")
+     fimse
+  
+Fimalgoritmo
