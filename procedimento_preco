@@ -1,0 +1,35 @@
+Algoritmo "procedimento_preco"
+Var
+p1,p2,p3: inteiro
+qtd: inteiro
+
+procedimento escrevaprod
+inicio
+escreval ("Olá, insira os preços dos produtos.")
+fimprocedimento
+
+procedimento leiaprod
+inicio
+leia (p1)
+leia(p2)
+leia(p3)
+fimprocedimento
+
+
+Inicio
+escrevaprod
+leiaprod
+
+ se (p1<p2) e (p1<p3) entao
+   escreva ("Você deve comprar o primeiro produto")
+  fimse
+  se (p2<p1) e (p2<p3) entao
+   escreva ("Você deve comprar o segundo produto")
+   fimse
+   se (p3<p1) e (p3<p2) entao
+   escreva ("Você deve comprar o terceiro produto ")
+  fimse
+
+
+
+Fimalgoritmo
