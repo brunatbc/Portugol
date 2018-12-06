@@ -1,0 +1,23 @@
+Algoritmo "numeros_vetor"
+Var
+numeros: vetor [1..30] de inteiro
+n: inteiro
+qtdi, qtd: inteiro
+Inicio
+qtdi <- 0
+qtd <- 0
+
+para n de 1 ate 30 faca
+escreval ("Digite um valor: ")
+leia (numeros [n])
+  se (numeros [n] % 2) = 0 entao
+  qtd <- qtd + 1
+fimse
+  se (numeros [n] % 2) <> 0 entao
+  qtdi <- qtdi + 1
+fimse
+fimpara
+escreval ("Foram inseridos", qtdi, " numeros ímpares")
+escreval ("Foram inseridos", qtd, " numeros pares")
+
+fimalgoritmo
