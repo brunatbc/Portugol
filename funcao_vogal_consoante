@@ -1,0 +1,19 @@
+Algoritmo "funcao_vogal"
+Var
+letra, r: caractere
+Inicio
+funcao vogalouconsoante (V_ou_L: caractere) : caractere
+inicio
+ se (V_ou_L = "a") ou (V_ou_L = "e") ou (V_ou_L = "i") ou (V_ou_L = "o") ou (V_ou_L = "u") entao
+ retorne "Vogal"
+ senao
+ retorne "Consoante"
+ fimse
+ fimfuncao
+
+escreval ("Insira uma letra: ")
+leia (letra)
+r <- vogalouconsoante (letra)
+escreval ("A letra inserida,", letra, " é uma ", r)
+
+Fimalgoritmo
