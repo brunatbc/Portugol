@@ -1,0 +1,16 @@
+Algoritmo "teste_vetor"
+Var
+nome: vetor [1..6] de caracter
+n: inteiro
+Inicio
+para n de 1 ate 6 faca
+escreval ("Digite o seu nome: ")
+leia (nome[n])
+fimpara
+limpatela
+
+escreval ("Os nomes inseridos foram: ")
+para n <- 1 ate 6 faca
+escreval (nome[n])
+fimpara
+Fimalgoritmo
