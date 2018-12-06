@@ -1,0 +1,13 @@
+Algoritmo "cm_m"
+
+Var
+metros: real
+centimetros: real
+
+Inicio
+escreval ("Olá, insira a medida em metros: ")
+leia (metros)
+centimetros <- metros * 100
+escreval ("A medida inserida em metros, convertida em centímetros é: ", centimetros)
+
+FimAlgoritmo
