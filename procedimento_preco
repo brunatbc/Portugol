@@ -29,6 +29,18 @@ leiaprod
    se (p3<p1) e (p3<p2) entao
    escreva ("Você deve comprar o terceiro produto ")
   fimse
+ 
+   se (p1>p2) e (p1>p3) entao
+   escreva ("O primeiro produto é o mais caro")
+  fimse
+  se (p2>p1) e (p2>p3) entao
+   escreva ("O segundo produto é o mais caro")
+   fimse
+   se (p3>p1) e (p3>p2) entao
+   escreva ("O terceiro produto é o mais caro")
+  fimse
+  
+  
 
 
 
